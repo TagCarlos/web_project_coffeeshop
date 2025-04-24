@@ -27,11 +27,6 @@
   <body>
     <div class="page">
       <header class="header">
-        <img
-          src="images/background_header.svg"
-          alt="background-image"
-          class="header__background"
-        />
         <nav class="nav">
           <img
             src="images/logo_coffeeshop_dark.svg"
@@ -40,7 +35,7 @@
           />
           <ul class="nav__links">
             <li>
-              <a href="#" class="nav__link">Recetas</a>
+              <a href="#" class="nav__link" href="#recipes">Recetas</a>
             </li>
             <li>
               <a href="#" class="nav__link">Reservar una mesa</a>
@@ -50,8 +45,9 @@
             </li>
           </ul>
         </nav>
+
         <h1 class="header__title">
-          <span class="span-accent"> Café de especialidad <br /> </span>
+          <span class="span-accent">Café de especialidad &nbsp; </span> &nbsp;
           en Triple Peaks
         </h1>
         <h2 class="header__description">
@@ -63,13 +59,18 @@
           alt="coffe-shop"
           class="header__image"
         />
+
         <div class="header__footer">
-          <p class="header__paragraph">Horario:</p>
-          <p class="header__paragraph">Lunes a Viernes (de 10:00h a 19:00h)</p>
+          <div>
+            <p class="header__paragraph">Horario:</p>
+            <p class="header__paragraph">
+              Lunes a Viernes (de 10:00h a 19:00h)
+            </p>
+            <p class="header__paragraph">
+              Sábados y Domingos (de 11:00h a 18:00h)
+            </p>
+          </div>
           <p class="header__paragraph">
-            Sábados y Domingos (de 11:00h a 18:00h)
-          </p>
-          <p class="header__paragraph header__paragraph_last">
             Avenida del Éxito 200, Ciudad Triple Peaks
           </p>
         </div>
@@ -77,29 +78,30 @@
 
       <main class="content">
         <section class="recipes">
-          <img
-            src="images/background_recipes.svg"
-            alt="background-recipes"
-            class="recipes__background"
-          />
-          <h2 class="recipes__title">Recetas</h2>
+          <h2 class="recipes__title" id="recipes">Recetas</h2>
           <h3 class="recipes__subtitle">
             Echa un vistazo a las recetas que hemos reunido para que elabores
             tus propios snacks.
           </h3>
           <div class="recipes__videos">
-            <iframe
-              src="https://youtu.be/st571DYYTR8?si=AH6D_Z3cQRH6ydUj"
-              class="recipes__video-item"
-            ></iframe>
-            <iframe
-              src="https://youtu.be/j6VlT_jUVPc?si=U1RvCkHRhMgVAn4y"
-              class="recipes__iframe"
-            ></iframe>
-            <p class="recipes__video-caption">
-              The Ultimate AeroPress Technique (Episode #3) ~5:12 min La mejor
-              técnica de prensa francesa ~3:33 min
-            </p>
+            <div class="iframe">
+              <iframe
+                src="https://youtu.be/st571DYYTR8?si=AH6D_Z3cQRH6ydUj"
+                class="recipes__video-item"
+              ></iframe>
+              <p class="recipes__video-caption">
+                The Ultimate AeroPress Technique (Episode #3) ~5:12 min
+              </p>
+            </div>
+            <div class="iframe">
+              <iframe
+                src="https://youtu.be/j6VlT_jUVPc?si=U1RvCkHRhMgVAn4y"
+                class="recipes__video-item"
+              ></iframe>
+              <p class="recipes__video-caption">
+                La mejor técnica de prensa francesa ~3:33 mins
+              </p>
+            </div>
           </div>
         </section>
         <section class="reservation"></section>
