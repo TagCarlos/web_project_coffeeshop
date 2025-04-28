@@ -100,6 +100,16 @@
 }
 
 .content {
+  /* background-image: url(../images/background_recipes.svg);
+  background-color: #0a2750;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding-top: 100px;
+  padding-left: 80px; */
+}
+
+.recipes {
   background-image: url(../images/background_recipes.svg);
   background-color: #0a2750;
   background-repeat: no-repeat;
@@ -155,7 +165,7 @@
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  width: 100%;
+  /* width: 100%; */
   padding-bottom: 100px;
   padding-top: 100px;
 }
@@ -163,7 +173,7 @@
 .reservation__title {
   display: flex;
   justify-content: center;
-  margin-top: 100px;
+  margin: 0;
   font-weight: 500;
   font-size: 44px;
   line-height: 52px;
@@ -200,11 +210,15 @@
 .form__button {
   margin-top: 32px;
   border-radius: 4px;
-  opacity: 70%;
   max-width: 385px;
   line-height: 60px;
   font-weight: 500;
 }
+
+.form__button:hover {
+  opacity: 70%;
+}
+
 .form__checkbox {
   margin-top: 32px;
   border-radius: 2px;
