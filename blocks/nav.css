@@ -1,0 +1,24 @@
+.nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav__logo {
+  position: relative;
+  top: 30px;
+  left: 30px;
+  width: 105px;
+  height: 39px;
+}
+
+.nav__links {
+  display: flex;
+  margin-top: 30px;
+  margin-right: 80px;
+  gap: 20px;
+  list-style-type: none;
+}
+
+.nav__link {
+  font-weight: 500;
+}
