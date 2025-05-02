@@ -10,7 +10,6 @@
   padding-left: 80px;
   padding-bottom: 108px;
   padding-right: 80px;
-  margin-right: 80px;
 }
 .footer__logo {
   width: 105px;
@@ -25,10 +24,7 @@
   height: 340px;
   width: 340px;
   z-index: 2;
-  background-color: blue;
-}
-
-.footer__social {
+  background-color: #2f80ed;
 }
 
 .footer__social-heading {
